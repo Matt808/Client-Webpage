@@ -207,7 +207,12 @@ p {
 	}
 }
 
-/* iPhone X size */
+/* iPhone X size */ 
+
+/*When the page width is 375px or less, then each div stacks on top of one another. 
+It also includes an image of cherring fans towards the bottom of the page to give it a baseball feel to it*/
+
+
 @media only screen and (max-width: 375px) {
 	.columns {
 		display: block;
